@@ -1,80 +1,77 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Payment</title>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="styles/common.css" rel="stylesheet" />
-    <link href="styles/payment.css" rel="stylesheet" />
+  <title>Payment</title>
+  <link rel="stylesheet" href="styles/payment.css" />
+  <link rel="stylesheet" href="styles/common.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body>
-    <!--This is the main container which contains the entire body-->
-    <div class="container">
 
-        <!--This is the header-->
-        <header class="header">
-            <a href="index.html"><img src="assests/images/logo.png" id="logo" alt="logo" /></a>
-            <span><a href="login.html" id="login" target="_self">Login</a></span>
-        </header>
+  <!-- This is the main container div wrapping the entire body-->
+  <div>
 
-        <!--This is the content part-->
-        <div class="content">
+    <!-- Header -->
+    <header>
+      <div class="header">
+        <a href="index.html"><img src="assests/images/logo.png" id="logo" /></a>
 
-            <div class="hotel-details">
-                <img id="hotel-img"
-                    src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-                <h2>Radisson Blu Hotel</h2>
-                <p>#38 of 1,289 hotels in New Delhi</p>
-                <p>National Highway 8, New Delhi 110017 India</p>
-            </div>
+        <a href="login.html" target="_self" id="login"><span>Login</span></a>
+      </div>
+    </header>
 
-            <div class="customer-details">
-                <p><b>Name: </b>John Doe</p>
-                <p><b>Number of Adults: </b>2</p>
-                <p><b>Check-in Date: </b>04/06/2021</p>
-                <p><b>Check-out Date: </b>06/06/2021</p>
-            </div>
-
-            <div class="payment-details">
-                <p><b>Tariff Breakdown: </b>Rs.1000 x 2 Adults x 5 Nights</p>
-                <p><b>Total Amount: </b>Rs. 10,000</p>
-            </div>
-
-            <div class="pay-link">
-                <a href="#" id="pay-link">Pay Now</a>
-            </div>
-
+    <!-- Content -->
+    <article>
+      <section class="conatiner">
+        <div class="div1">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="_img" />
+          <div class="text">
+            <h2>Radisson Blu Hotel</h2>
+            <p>#38 of 1,289 hotels in New Delhi</p>
+            <p>National Highway 8, New Delhi 110017 India</p>
+          </div>
         </div>
+        <div class="_text">
+          <div class="width">
+            <p><b>Name:</b> John Doe</p>
+            <p><b>Number of Adults :</b> 2</p>
+            <p><b>Check-in Date:</b> 04/06/2021</p>
+            <p><b>Check-out Date:</b> 06/06/2021</p>
+          </div>
+          <div class="width" id="_width">
+            <p><b>Tariff Breakdown:</b> Rs 1000 x 2 Adults x 5 Nights</p>
+            <p><b>Total Amount:</b> Rs 10000</p>
+          </div>
+          <div class="width" id="_pay">
+            <a href="#" target="_self" class="pay"><span>Pay Now</span></a>
+          </div>
+        </div>
+      </section>
+    </article>
 
-        <!-- This is the footer -->
-        <footer>
-            <div class="contact">
-                <a href="contact.html" class="us"><span>Contact Us</span></a>
-            </div>
+    <!-- Footer -->
+    <footer>
+      <div class="contact">
+        <a href="contact.html" target="_self" class="us"><span>Contact Us</span></a>
+      </div>
 
-            <div class="copyright">
-                <span> &copy 2021 ROOM SEARCH PVT. LTD.</span>
-            </div>
+      <div class="footerline">
+        <span> &copy 2021 ROOM SEARCH PVT LTD</span>
+      </div>
+      <div class="socialicons">
+        <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt="facebook"
+            id="socialsites" /></a>
 
-            <div class="social-icons">
-                <a href="https://www.facebook.com" target="_blank">
-                    <img src="assests/images/facebook.png" class="social-img">
-                </a>
-
-                <a href="https://www.instagram.com" target="_blank">
-                    <img src="assests/images/instagram.png" class="social-img">
-                </a>
-
-                <a href="https://twitter.com" target="_blank">
-                    <img src="assests/images/twitter.png" class="social-img">
-                </a>
-
-            </div>
-        </footer>
-    </div>
+        <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" alt="instagram"
+            id="socialsites" /></a>
+        <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" alt="twitter"
+            id="socialsites" /></a>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

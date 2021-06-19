@@ -1,43 +1,38 @@
-body{   
-    margin-top: 6%;
-    padding-bottom: 25%;
+.listmap {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
 }
 
-.view{
-    margin-left: 40%;
+._img {
+  height: 200px;
+  width: 250px;
 }
 
-.links{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 12px;
+.image-container {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+}
+.image_container {
+  margin-top: 50px;
+  display: flex;
+}
+.content {
+  background-color: lightgrey;
+  width: 40%;
+  margin-right: 65px;
+  margin-left: 54px;
+  display: flex;
 }
 
-#hotel-link{
-    color: black;
-    text-decoration: none;
+._content {
+  background-color: lightgrey;
+  width: 40%;
+  margin-left: 72px;
+  display: flex;
 }
-
-#list-view {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 5%;
-} 
-
-.hotel-list{
-    width: 40%;
-    margin: 2%;
-    background-color: rgb(132,136,139);
+.sentence {
+  margin-left: 25px;
 }
-
-.hotel-img{
-    height: 200px;
-    width: 250px;
-}
-
-#map-view{
-    display: none;
-}
-
