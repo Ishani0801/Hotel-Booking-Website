@@ -5,7 +5,8 @@
 }
 
 .div1 {
-  margin: 1% 4% 2% 4%;
+  margin: -6% 4% 2% 1.5%;
+  
 }
 .container {
   height: 382px;
@@ -13,24 +14,25 @@
   
   display: flex;
   justify-content: space-evenly;
-  margin: 25px;
+  margin: 5em;
   
 }
-
+#_btn:hover{
+  background-color: green !important;
+  color: white !important;
+}
 .img {
-  margin-right: 42px;
+  margin-right: 20px;
+  
 }
 
 .vl {
   border-left: 1px solid black;
-  height: 41.25%;
-  position: absolute;
-  left: 65%;
-  top: 9%;
+  
 }
 ._text {
   font-family: cursive;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .text {
   width: 60%;
@@ -38,11 +40,10 @@
 .input {
   width: 40%;
 }
-button{
-  padding: 6px;
-}
+
 ._form {
   display: flex;
-  margin-bottom: 40px;
-  margin-top: 12px;
+  margin-bottom: 31px;
+
+  margin-right: 3em;
 }

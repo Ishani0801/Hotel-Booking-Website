@@ -8,4 +8,10 @@
   left: 50%;
   top: 50%;
   margin: -76px 0 0 -76px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

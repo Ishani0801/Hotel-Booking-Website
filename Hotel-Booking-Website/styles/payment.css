@@ -2,26 +2,26 @@
   height: 200px;
   width: 250px;
 }
+
 .div1 {
   background-color: rgb(132, 136, 139);
   display: flex;
   width: 50%;
-  margin: 5px auto;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin: auto;
+  margin-top: 7.5em;
+  margin-bottom: 20px;
 }
+
 .text {
   margin-left: 25px;
   margin-top: 30px;
 }
-.pay {
-  text-decoration: none;
-  color: black;
-}
+
 .container {
   display: flex;
   justify-content: center;
 }
+
 ._text {
   padding: 12px;
   border: 1px solid black;
@@ -30,20 +30,24 @@
   display: flex;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 50px;
+  margin-bottom: 10em;
   background-color: rosybrown;
 }
+
 .width {
   width: 33.3%;
   font-family: cursive;
   font-size: 14px;
-  margin-left: 100px;
+  margin-left: 5em;
 }
+
 #_width {
   margin-top: 25px;
   margin-left: 0%;
+
 }
+
 #_pay {
-  margin-top: 70px;
+  margin-top: 65px;
   margin-right: 0px;
 }
