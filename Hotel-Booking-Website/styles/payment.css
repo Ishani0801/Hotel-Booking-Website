@@ -37,14 +37,13 @@
 .width {
   width: 33.3%;
   font-family: cursive;
-  font-size: 14px;
   margin-left: 5em;
+  font-size: 14px;
 }
 
 #_width {
   margin-top: 25px;
   margin-left: 0%;
-
 }
 
 #_pay {

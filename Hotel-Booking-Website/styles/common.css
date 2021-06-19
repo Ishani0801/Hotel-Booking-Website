@@ -1,11 +1,7 @@
 body {
-  margin: 0px;
-  background-color: #e0e0e0;
-  font-family: "Ubuntu", sans-serif;
   padding-bottom: 80px;
   position: relative;
   overflow-x: hidden;
-
 }
 
 html {
@@ -17,12 +13,7 @@ html {
   width: 100%;
   position: fixed;
   top: 0;
-}
-#nav {
-  display: block;
-  position: fixed;
   z-index: 10;
-  
 }
 
 .btn-light {
@@ -36,6 +27,7 @@ html {
   width: 60px;
   margin-left: 1%;
 }
+
 footer {
   background-color: rosybrown;
   width: 100%;
@@ -44,6 +36,7 @@ footer {
   height: 60px;
   display: flex;
 }
+
 .button {
   margin-top: 12px;
   width: 33.3%;
@@ -56,11 +49,13 @@ footer {
   text-align: center;
   width: 33.3%;
 }
+
 .socialicons {
   width: 33.3%;
   text-align: right;
-  margin-right: 1%;
+  margin-right: 2%;
 }
+
 #socialsites {
   width: 22px;
   padding-top: 22px;
@@ -74,15 +69,18 @@ footer {
 .login-btn {
   float: right;
 }
-#_us{
+
+#_us {
   margin-top: 1.5em;
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
-.form{
+
+.form {
   margin-bottom: 1.5em;
   margin-top: 0.5em;
 }
-#modal-footer{
+
+#modal-footer {
   justify-content: center;
   padding-bottom: 0em;
 }
