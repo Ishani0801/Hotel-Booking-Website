@@ -1,3 +1,8 @@
+body{   
+    margin-top: 7%;
+    padding-bottom: 37%;
+}
+
 .hotel-details{
     background-color: rgb(132, 136, 139);
     height: 20%;
@@ -21,4 +26,9 @@
     border-radius: 5px;
     margin: 2%;
     padding: 1% 2%;
+}
+
+#pay-link{
+    color: black;
+    text-decoration: none;
 }

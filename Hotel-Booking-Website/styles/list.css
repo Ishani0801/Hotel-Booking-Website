@@ -1,6 +1,33 @@
+body{   
+    margin-top: 6%;
+    padding-bottom: 25%;
+}
+
+.view{
+    margin-left: 40%;
+}
+
+.links{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#hotel-link{
+    color: black;
+    text-decoration: none;
+}
+
+#list-view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5%;
+} 
+
 .hotel-list{
     width: 40%;
-    height: auto;
     margin: 2%;
     background-color: rgb(132,136,139);
 }
@@ -9,3 +36,8 @@
     height: 200px;
     width: 250px;
 }
+
+#map-view{
+    display: none;
+}
+
