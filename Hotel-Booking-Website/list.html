@@ -1,7 +1,12 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>List</title>
+    <link href="styles/common.css" rel="stylesheet" />
+    <link href="styles/list.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -9,28 +14,29 @@
     <div class="container">
 
         <!--This is the header-->
-        <div class="header">
-            <a href="index.html"><img src="assests/images/logo.png" height="100px" width="150px" alt="logo" /></a>
+        <header class="header">
+            <a href="index.html"><img src="assests/images/logo.png" id="logo" alt="logo" /></a>
             <span><a href="login.html" target="_self">Login</a></span>
-        </div>
+        </header>
 
         <!--This is the content part-->
         <div class="content">
             <div class="view">
                 <ul>
-                    <a href="#">
+                    <a href="#list-view">
                         <li>List View</li>
                     </a>
-                    <a href="#">
+                    <a href="#map-view">
                         <li>Map View</li>
                     </a>
                 </ul>
             </div>
 
-            <div class="hotel-list">
+            <div class="hotel-list" id="list-view">
                 <a href="detail.html">
                     <div>
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                        <img class="hotel-img"
+                            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
                         <h3>Radisson Blu Hotel</h3>
                         <p>5 Star</p>
                         <p>New Delhi</p>
@@ -38,21 +44,22 @@
                 </a>
 
                 <div>
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
+                    <img class="hotel-img" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg">
                     <h3>The Lalit New Delhi</h3>
                     <p>4.5 Star</p>
                     <p>New Delhi</p>
                 </div>
 
                 <div>
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
+                    <img class="hotel-img"
+                        src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg">
                     <h3>Taj Palace</h3>
                     <p>4.0 Star</p>
                     <p>New Delhi</p>
                 </div>
             </div>
 
-            <div class="map">
+            <div class="map" id="map-view">
                 <div><img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"></div>
                 <div>MAP VIEW</div>
                 <br>
@@ -60,20 +67,20 @@
         </div>
 
         <!--This is the footer-->
-        <div class="footer">
+        <footer class="footer">
             <div><a href="contact.html" target="_self">Contact Us</a></div>
 
             <div>
-                <span><a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png"
-                            height="20px" width="22px" /></a></span>
-                <span><a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
-                            height="20px" width="22px" /></a></span>
-                <span><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px"
-                            width="22px"></a></span>
+                <span><a href="https://www.facebook.com" target="_blank"><img class="social-img"
+                            src="assests/images/facebook.png" /></a></span>
+                <span><a href="https://www.instagram.com" target="_blank"><img class="social-img"
+                            src="assests/images/instagram.png" /></a></span>
+                <span><a href="https://twitter.com" target="_blank"><img class="social-img"
+                            src="assests/images/twitter.png"></a></span>
             </div>
 
             <div>&copy 2020 ROOM SEARCH PVT. LTD.</div>
-        </div>
+        </footer>
     </div>
 </body>
 

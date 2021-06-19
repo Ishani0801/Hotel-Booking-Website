@@ -1,7 +1,12 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>Detail</title>
+    <link href="styles/common.css" rel="stylesheet" />
+    <link href="styles/detail.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -9,21 +14,22 @@
     <div class="container">
 
         <!--This is the header-->
-        <div class="header">
-            <a href="index.html"><img src="assests/images/logo.png" height="100px" width="150px" alt="logo" /></a>
+        <header class="header">
+            <a href="index.html"><img src="assests/images/logo.png" id="logo" alt="logo" /></a>
             <span><a href="login.html" target="_self">Login</a></span>
-        </div>
+        </header>
 
         <!--This is the content part-->
         <div class="content">
             <div class="details">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                <img id="hotel-img"
+                    src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
                 <br>
 
                 <div class="detail-form">
                     <form action="payment.html" method="GET" target="_self">
-                        <label for="adults">Adults:</label>
-                        <input type="number" id="adults" name="adults" min="1" value="1" required />
+                        <label for="count">Adults:</label>
+                        <input type="number" id="count" name="count" min="1" value="1" required />
 
                         <br />
 
@@ -72,20 +78,20 @@
         </div>
 
         <!--This is the footer-->
-        <div class="footer">
+        <footer class="footer">
             <div><a href="contact.html" target="_self">Contact Us</a></div>
 
             <div>
-                <span><a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png"
-                            height="20px" width="22px" /></a></span>
-                <span><a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
-                            height="20px" width="22px" /></a></span>
-                <span><a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px"
-                            width="22px"></a></span>
+                <span><a href="https://www.facebook.com" target="_blank"><img class="social-img"
+                            src="assests/images/facebook.png" /></a></span>
+                <span><a href="https://www.instagram.com" target="_blank"><img class="social-img"
+                            src="assests/images/instagram.png" /></a></span>
+                <span><a href="https://twitter.com" target="_blank"><img class="social-img"
+                            src="assests/images/twitter.png" /></a></span>
             </div>
 
             <div>&copy 2020 ROOM SEARCH PVT. LTD.</div>
-        </div>
+        </footer>
     </div>
 </body>
 
