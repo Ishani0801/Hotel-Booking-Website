@@ -1,3 +1,12 @@
+let disableLoader = () => {
+    document.getElementById("loader").style.visibility = "hidden";
+    document.getElementsByTagName("body")[0].style.visibility = "visible";
+}
+
+let displayLoader = () => {
+    document.getElementsByTagName("body")[0].style.visibility = "hidden";
+    document.getElementById("loader").style.visibility = "visible";
+}
 
 // The header template
 let displayHeaderTemplate = () => {
@@ -72,13 +81,13 @@ let displayFooterTemplate = () => {
         © 2020 ROOM SEARCH PVT. LTD.
     </div>
     <div id="social-media-images">
-        <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;">
+        <a href="https://www.facebook.com" target="_blank">
             <img src="assests/images/facebook.png" class="social-media-image">
         </a>
-        <a href="https://www.instagram.com" target="_blank" style="text-decoration: none;">
+        <a href="https://www.instagram.com" target="_blank">
             <img src="assests/images/instagram.png" class="social-media-image">
         </a>
-        <a href="https://twitter.com" target="_blank" style="text-decoration: none;">
+        <a href="https://twitter.com" target="_blank">
             <img src="assests/images/twitter.png" class="social-media-image">
         </a>
     </div>`;
@@ -86,10 +95,10 @@ let displayFooterTemplate = () => {
     document.getElementById('footer').innerHTML += footerTemplate;
 };
 
-// display header and footer templates
+displayLoader();
+
 displayHeaderTemplate();
 displayFooterTemplate();
-
 
 let mainLogin = e => {
     if (localStorage.getItem('isLogin') === 'true') {

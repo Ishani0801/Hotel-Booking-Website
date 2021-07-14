@@ -4,7 +4,7 @@ const travelAdvisorHost = "travel-advisor.p.rapidapi.com";
 const travelAdvisorKey = "7a54bb848fmshfb488ece4937a3fp167955jsn3f87ad320431";
 const PRICE_PER_ROOM = 1000;
 
-/* Function to update the Price field in the booking form*/
+/* Function to update the Price field in the booking form */
 let updatePrice = () => {
     let adultElement = document.getElementById("adult");
     let totalPriceElement = document.getElementById("price");
@@ -25,12 +25,13 @@ let updatePrice = () => {
 
 }
 
-/* The function to fetch the details of the hotel from the API */
+/* This function will fetch the details of the hotel from the API */
 let fetchHotelDetailAPI = () => {
     let xhr = new XMLHttpRequest();
 
     xhr.addEventListener("readystatechange", function () {
         if (this.readyState === this.DONE) {
+
             let result = JSON.parse(this.responseText).data[0];
 
             document.getElementById("hotel-name").innerText = result.name;

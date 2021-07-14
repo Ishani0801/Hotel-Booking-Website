@@ -55,7 +55,7 @@ let initList = hotelList => {
     });
 }
 
-//The function to display the list of hotels in a particular city fetched from the API 
+//This function is used to display the list of hotels in a particular city fetched from the API 
 let fetchHotelListAPI = () => {
     let xhr = new XMLHttpRequest();
 
