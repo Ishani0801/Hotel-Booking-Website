@@ -67,11 +67,6 @@
 .carousel-image {
     max-height: 370px;
 }
-#_img {
-    width: 500px;
-    height: 350px;
-    margin-left: 15%;
-  }
 
 @media screen and (max-width: 576px) {
 

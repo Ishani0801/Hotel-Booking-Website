@@ -1,5 +1,4 @@
 
-
 // The header template
 let displayHeaderTemplate = () => {
     let headerTemplate = `<a href="index.html" class="logo">
@@ -73,20 +72,19 @@ let displayFooterTemplate = () => {
         © 2020 ROOM SEARCH PVT. LTD.
     </div>
     <div id="social-media-images">
-        <a href="https://www.facebook.com" target="_blank" style="text-decoration:none;">
+        <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;">
             <img src="assests/images/facebook.png" class="social-media-image">
         </a>
-        <a href="https://www.instagram.com" target="_blank" style="text-decoration:none;">
+        <a href="https://www.instagram.com" target="_blank" style="text-decoration: none;">
             <img src="assests/images/instagram.png" class="social-media-image">
         </a>
-        <a href="https://twitter.com" target="_blank" style="text-decoration:none;">
+        <a href="https://twitter.com" target="_blank" style="text-decoration: none;">
             <img src="assests/images/twitter.png" class="social-media-image">
         </a>
     </div>`;
 
     document.getElementById('footer').innerHTML += footerTemplate;
 };
-
 
 // display header and footer templates
 displayHeaderTemplate();
@@ -100,8 +98,8 @@ let mainLogin = e => {
     }
 };
 
-
 let login = e => {
+
     localStorage.setItem('username', 'admin');
     localStorage.setItem('password', 'admin');
 
