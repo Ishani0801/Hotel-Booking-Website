@@ -1,53 +1,91 @@
 ._img {
-  height: 200px;
-  width: 250px;
+    height: 200px;
+    width: 250px;
+  }
+  
+  .image-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  .nav{
+    justify-content: center;
+  }
+  
+  .image_container {
+    margin-top: 50px;
+    display: flex;
+  }
+  
+  .content {
+    background-color: lightgrey;
+    width: 40%;
+    margin-right: 65px;
+    margin-left: 54px;
+    display: flex;
+  }
+  
+  ._content {
+    background-color: lightgrey;
+    width: 40%;
+    margin-left: 72px;
+    display: flex;
+  }
+  
+  .sentence {
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .content:hover{
+    background-color: rosybrown;
+  }
+  
+  ._content:hover{
+    background-color: rosybrown;
+  }
+
+@media screen and (max-width: 576px) {  
+    #list-container {
+        margin-bottom: 150%;
+    }
+
+    #pills-tab {
+        padding-top: 15%;
+    }
+
+    .hotel{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .hotel-image-small {
+        width: 100%;
+    }
+
+    #map-view > img {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #pills-tab {
+        padding-top: 5%;
+    }
+    
+    .hotel{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    #map-view > img {
+        width: 100%;
+    }
 }
 
-.image-container {
-  display: flex;
-  width: 100%;
-  margin-top: 50px;
-  justify-content: center;
-}
-
-.checked {
-  color: orange;
-}
-
-.nav{
-  justify-content: center;
-}
-
-.image_container {
-  margin-top: 50px;
-  display: flex;
-}
-
-.content {
-  background-color: lightgrey;
-  width: 40%;
-  margin-right: 65px;
-  margin-left: 54px;
-  display: flex;
-}
-
-._content {
-  background-color: lightgrey;
-  width: 40%;
-  margin-left: 72px;
-  display: flex;
-}
-
-.sentence {
-  margin-left: 15px;
-  margin-top: 15px;
-  text-align: left;
-}
-
-.content:hover{
-  background-color: rosybrown;
-}
-
-._content:hover{
-  background-color: rosybrown;
-}

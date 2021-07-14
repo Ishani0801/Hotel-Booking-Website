@@ -1,51 +1,83 @@
 #_btn:hover {
-  background-color: green !important;
-  color: white !important;
-}
+    background-color: green !important;
+    color: white !important;
+  }
+  
+  .div1 {
+    padding-left: 18px;
+  }
+  
+  #_img {
+    width: 500px;
+    height: 350px;
+  }
+  
+  #row {
+    border: 1px solid black;
+    margin-top: 80px !important;
+    width: 97%;
+    margin: auto;
+  }
+  
+  #text1 {
+    border-right: 1px solid black;
+    padding: 16px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  ._text {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .text {
+    width: 40%;
+  }
+  
+  .input {
+    width: 60%;
+    background-color: white;
+  }
+  
+  ._form {
+    display: flex;
+    margin-bottom: 31px;
+    margin-right: 3em;
+    width: 100%;
+  }
+  
+@media screen and (max-width: 576px) {
 
-.div1 {
-  padding-left: 18px;
-}
+    #slideshow-container {
+        margin-left: 0%;
+        max-width: 100%;
+        border-right: 1px solid black;
+    }
 
-#_img {
-  width: 500px;
-  height: 350px;
-}
+    #booking-form {
+        width: 100%;
+    }
 
-#row {
-  border: 1px solid black;
-  margin-top: 80px !important;
-  width: 97%;
-  margin: auto;
-}
+    #detail-container {
+        margin-top: 20%;
+        margin-bottom: 22%;
+    }
 
-#text1 {
-  border-right: 1px solid black;
-  padding: 16px;
-}
+    #slideshow-booking {
+        flex-direction: column;
+    }
 
-.checked {
-  color: orange;
+    .slider-image {
+        max-height: 250px;
+        width: 100%;
+    }
 }
-
-._text {
-  font-family: cursive;
-  font-weight: bold;
-  font-size: large;
-}
-
-.text {
-  width: 40%;
-}
-
-.input {
-  width: 60%;
-  background-color: white;
-}
-
-._form {
-  display: flex;
-  margin-bottom: 31px;
-  margin-right: 3em;
-  width: 100%;
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #detail-container {
+        margin-top: 10%;
+    }
 }
